@@ -2,6 +2,16 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/spring-projects/spring-petclinic) [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=7517918)
 
+## Changes in This Repo
+
+_This repo's intention is to demonstrate CI/CD configuration for containerized Java application (with Spring Boot) and take action to push the containerized image to Docker Hub._
+
+_All the steps, that were explained under "Java Language-specific Guide" in Docker Docs, have been applied to prepare the web application here._
+
+_The important change is that there exists files related to Docker containerization_ (`Dockerfile` & `docker-compose.yml`) _to build and compose the application successfully._
+
+_In addition, the port number was changed to 8090 while running the app locally._ (Go to `http://localhost:8090` when it's up and running.)
+
 ## Understanding the Spring Petclinic application with a few diagrams
 
 [See the presentation here](https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application)
